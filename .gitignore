@@ -1,0 +1,12 @@
+# TrackTheNews
+config/config.yaml
+*.db
+
+# Python environment
+Pipfile
+Pipfile.lock
+
+# Custom
+validate-data/node_modules
+.vscode
+
