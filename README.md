@@ -20,14 +20,17 @@ Para leer las noticias, el robot emplea una fuente RSS. En el primer paso, se de
 > @todo: nota sobre criterio a emplear y tipos de noticias que se incluyen.
 
 Los medios deben añadirse al fichero [rssfeeds.json](https://github.com/dcanetma/AFALynchFeed/blob/master/config/rssfeeds.json) en el siguiente formato (aquí el ejemplo de 'Gizmodo'):
-`
+
+
+````
   {
     "url": "https://gizmodo.com/rss",
     "outlet": "Gizmodo",
     "delicateURLs": false, // opcional, default: false, si true, no limpia las URLs de los artículos (e.j. borrando todo despues de '#' o '?')
     "redirectLinks": false // opcional, default: false, si true, sigue las redirecciones hasta encontrar la url última
   },
-`
+````
+
 Las solicitudes de 'Pull requests' son bienvenidas. De lo contrario, también puedes abrir [un nuevo 'Issue'](https://github.com/dcanetma/AFALynchFeed/issues/new) indicando las URLS de los medios de noticias que faltan, para que los añadamos cuando sea posible.
 
 ## Palabras clave para el filtrado de noticias, ('matchwords')
