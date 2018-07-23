@@ -47,3 +47,9 @@ La frase debe coincidir de manera completa en el artículo y existe la posibilid
 
 > @todo
 > Mención a proyecto original trackthenews
+
+## Licencia
+
+Datos: CC0
+
+Code: MIT
