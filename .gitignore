@@ -9,4 +9,4 @@ Pipfile.lock
 # Custom
 validate-data/node_modules
 .vscode
-
+credentials.txt
