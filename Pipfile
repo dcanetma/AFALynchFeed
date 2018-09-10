@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+trackthenews = {editable = true, ref = "master", git = "https://github.com/FctsFxns/trackthenews.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

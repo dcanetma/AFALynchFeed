@@ -1,10 +1,17 @@
+# From Heroku: https://github.com/heroku/python-sample
+venv
+*.pyc
+.env
+staticfiles
+db.sqlite3
+
 # TrackTheNews
 config/config.yaml
 *.db
 
 # Python environment
-Pipfile
-Pipfile.lock
+# Pipfile
+# Pipfile.lock
 
 # Custom
 validate-data/node_modules
