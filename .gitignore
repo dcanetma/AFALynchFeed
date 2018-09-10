@@ -17,3 +17,4 @@ config/config.yaml
 validate-data/node_modules
 .vscode
 credentials.txt
+notes.md
