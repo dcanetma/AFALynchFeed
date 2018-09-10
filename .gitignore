@@ -6,7 +6,7 @@ staticfiles
 db.sqlite3
 
 # TrackTheNews
-config/config.yaml
+ttnconfig/config.yaml
 *.db
 
 # Python environment

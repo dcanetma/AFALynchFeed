@@ -1,1 +1,1 @@
-web: python trackthenews --config ./config
+web: python trackthenews
