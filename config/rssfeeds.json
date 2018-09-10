@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "url": "http://www.ara.cat/rss/latest/",
+        "outlet": "Ara.cat",
+        "delicateURLs": false,
+        "redirectLinks": false
+    },
+    {
+        "url": "http://cebp.aacrjournals.org/rss/ahead.xml",
+        "outlet": "CEBP Journals",
+        "delicateURLs": false,
+        "redirectLinks": false
+    },
+    {
+        "url": "http://www.noticiasdenavarra.com/rss/general.xml",
+        "outlet": "Noticias de Navarra",
+        "delicateURLs": false,
+        "redirectLinks": false
+    }
+]
