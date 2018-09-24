@@ -1,19 +1,13 @@
 [
     {
-        "url": "http://www.ara.cat/rss/latest/",
-        "outlet": "Ara.cat",
+        "url": "https://elpais.com/rss/elpais/portada_completo.xml",
+        "outlet": "El País",
         "delicateURLs": false,
         "redirectLinks": false
     },
     {
-        "url": "http://cebp.aacrjournals.org/rss/ahead.xml",
-        "outlet": "CEBP Journals",
-        "delicateURLs": false,
-        "redirectLinks": false
-    },
-    {
-        "url": "http://www.noticiasdenavarra.com/rss/general.xml",
-        "outlet": "Noticias de Navarra",
+        "url": "https://www.lavanguardia.com/feed/rss/home",
+        "outlet": "La Vanguardia",
         "delicateURLs": false,
         "redirectLinks": false
     }

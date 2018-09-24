@@ -3,19 +3,19 @@ Soy un robot que destaca trabajos periodísticos e investigaciones que tratan so
 
 ## Publicación de resultados
 
-Puedes seguir los artículos publicados en el perfil de Twitter [@AFALynchFeed](https://twitter.com/AFALynchFeed). 
+Puedes seguir los artículos publicados en el perfil de Twitter [@AFALynchFeed](https://twitter.com/AFALynchFeed).
 
 ## Medios de noticias, ('outlets')
 
 El fichero [rssfeeds.json](https://github.com/dcanetma/AFALynchFeed/blob/master/config/rssfeeds.json) contiene el listado con todos los orígenes de noticias que son rastreados periódicamente en la búsqueda de entradas que tengan que ver con nuestro tema principal de interés, el **síndrome de Lynch** o el cáncer de colon y endometrio hereditarios.
 
-En este listado hemos incluido desde medios generalistas de noticias, hasta otras fuentes más especializadas en medicina, investigación médica, ciencia o tecnología. 
+En este listado hemos incluido desde medios generalistas de noticias, hasta otras fuentes más especializadas en medicina, investigación médica, ciencia o tecnología.
 
 ## Proponer nuevas fuentes de artículos
 
 _¿Crees que falta algún medio de noticias online en la lista? ¿Conoces algún diario médico online que podría ser interesante? Te explicamos cómo._
 
-Para leer las noticias, el robot emplea una fuente RSS. En el primer paso, se debe encontrar la URL del RSS en la página web de noticias que desees añadir. Si la página web tiene más de un RSS disponible, escogeremos el que incluya todas las noticias del sitio. 
+Para leer las noticias, el robot emplea una fuente RSS. En el primer paso, se debe encontrar la URL del RSS en la página web de noticias que desees añadir. Si la página web tiene más de un RSS disponible, escogeremos el que incluya todas las noticias del sitio.
 
 > @todo: nota sobre criterio a emplear y tipos de noticias que se incluyen.
 
@@ -42,7 +42,20 @@ La frase debe coincidir de manera completa en el artículo y existe la posibilid
 
 Mientras no están disponibles otros medios de acceso abierto, es posible bajo demanda solicitar la base de datos completa de resultados de este proyecto, con todos los artículos que han sido identificados con esta herramienta.
 
-El proyecto emplea una base de datos en formato SQLite, y podemos entregar los datos en formato 'csv' y hoja de datos. 
+El proyecto emplea una base de datos en formato SQLite, y podemos entregar los datos en formato 'csv' y hoja de datos.
+
+## Instalación
+
+**Prerequisites:**
+
+- Git, if you need help with this, check out my other article here.
+- Sign up for a Heroku account.
+- Python version > 3.6 installed on your machine.
+- Pipenv installed: pip install pipenv.
+
+Comando de instalación:
+
+$ pipenv install
 
 ## Créditos
 
