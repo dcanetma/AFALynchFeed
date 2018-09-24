@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-trackthenews = {editable = true, ref = "master", git = "https://github.com/FctsFxns/trackthenews.git"}
+trackthenews = {editable = true, ref = "features/postgresql", git = "https://github.com/FctsFxns/trackthenews.git"}
 
 [dev-packages]
 
